@@ -38,6 +38,7 @@ LLMs are adept at processing unstructured data. They can easily extract summarie
 <figcaption>Data Enrichment Example</figcaption>
 </figure>
 We decompose the loaded content into graphs, allowing us to more precisely map out the relationships between entities and concepts.
+
 ### Concept 3: Linguistic Analysis
 LLMs are probabilistic models, meaning they can make mistakes. 
 To mitigate this, we can use a combination of NLP and LLMs to determine how to analyze the data and score each part of the text. 
@@ -46,6 +47,7 @@ To mitigate this, we can use a combination of NLP and LLMs to determine how to a
 ![Linguistic analysis](img/linguistic_analysis.png)
 <figcaption>Linguistic analysis</figcaption>
 </figure>
+
 ### Concept 4: Graphs
 Knowledge graphs simply map out knowledge, linking specific facts and their connections. 
 When Large Language Models (LLMs) process text, they infer these links, leading to occasional inaccuracies due to their probabilistic nature. 
@@ -57,10 +59,12 @@ This structured approach can extend beyond concepts to document layouts, pages, 
 ![Graph structure](img/graph_structure.png)
 <figcaption>Graph Structure</figcaption>
 </figure>
+
 ### Concept 5: Vector and Graph Retrieval 
 Cognee lets you use multiple vector and graph retrieval methods to find the most relevant information.
 !!! info "Learn more?"
     Check out learning materials to see how you can use these methods in your projects.
+
 ### Concept 6: Auto-Optimizing Pipelines
 Integrating knowledge graphs into Retrieval-Augmented Generation (RAG) pipelines leads to an intriguing outcome: the system's adeptness at contextual understanding allows it to be evaluated in a way Machine Learning (ML) engineers are accustomed to. 
 
